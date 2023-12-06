@@ -1,6 +1,6 @@
 # **Custom Christmas Decoration App**
 
-Here I train the face segmentation model used for this [streamlit app](https://custom-xmas-decoration.streamlit.app/). The app lets the user put their face (with or without hair) onto their favorite Christmas decoration.
+Here I train the face segmentation model used for this [streamlit app](https://xmas-bauble-face.streamlit.app/). The app lets the user put their face (with or without hair) onto their favorite Christmas decoration.
 
 The main difficulty was actually processing the RGB facemasks into 2-d tensors that contained integers depending one which part of the fact that pixel was a part of.
 

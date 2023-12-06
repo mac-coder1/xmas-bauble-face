@@ -22,6 +22,7 @@ def label_func(fn):
 model = load_learner("resnet18_model.pkl")
 
 st.subheader("Upload your favourite Christmas bauble!")
+st.markdown('There are some good ones [here](https://drive.google.com/drive/u/1/folders/1kjokG2hKxD35f8Iy17tVz2wc9MzgGb63)!')
 # upload a picture of you favorite bauble
 bauble_file = st.file_uploader("Upload a bauble image...", type="jpeg")
 
@@ -57,7 +58,7 @@ if (uploaded_file is not None) and (bauble_file is not None):
         st.image(img)
 
     with col2:
-        slider_value = st.slider("Crop Bauble Image", 0, 2000, 500)
+        slider_value = st.slider("Crop Bauble Image", 0, 2000, 1000)
         resize_transform = CropPad(slider_value)
         bauble_img = resize_transform(bauble_img)
         st.image(bauble_img)
