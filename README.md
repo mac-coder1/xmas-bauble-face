@@ -9,7 +9,7 @@ The streamlit app is then deployed from 🎄⛄️🎄.py.
 Learning points:
 - The main difficulty was actually processing the RGB facemasks into 2-d tensors that contained integers depending one which part of the fact that pixel was a part of.
 
-Please reach out to me with any questions you might have, or if you want to collaborate!
+Please reach out to me with any questions you might have, or if you want to collaborate!!!
 
 Some useful links:
 - [Link](https://store.mut1ny.com/product/face-head-segmentation-dataset-community-edition?v=6048de06ffbd) to the dataset.
